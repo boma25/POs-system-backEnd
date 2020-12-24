@@ -33,7 +33,7 @@ app.use(
 		cookie: {
 			httpOnly: true,
 			maxAge: parseInt(process.env.COOKIE_MAX_AGE),
-			sameSite: true,
+			sameSite: false,
 		},
 	})
 )
