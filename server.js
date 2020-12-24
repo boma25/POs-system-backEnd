@@ -21,10 +21,7 @@ app.listen(port, () => {
 app.use(
 	cors({
 		credentials: true,
-		origin: [
-			"http://localhost:3000",
-			"https://naughty-saha-e41f45.netlify.app/",
-		],
+		origin: "https://naughty-saha-e41f45.netlify.app",
 	})
 )
 app.use(express.json())
